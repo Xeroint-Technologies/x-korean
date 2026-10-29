@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080e20">
+  <meta name="description" content="X-Korean — teman belajar bahasa Korea dengan kosakata, kuis, dan materi EPS-TOPIK dalam satu aplikasi.">
+  <title>X-Korean — Belajar Bahasa Korea</title>
+  <link rel="icon" type="image/png" href="assets/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Navigasi utama">
+      <a class="brand" href="#home" aria-label="X-Korean beranda"><img src="assets/logo.png" alt="Logo X-Korean"><span>X-Korean</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Buka menu" aria-expanded="false"><span></span><span></span><span></span></button>
+      <div class="nav-links" id="navLinks"><a href="#fitur">Fitur</a><a href="#preview">Preview aplikasi</a><a href="#tentang">Tentang</a><a class="nav-download" href="#download">Download APK <span>↗</span></a></div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="live-dot"></span> TEMAN BELAJAR BAHASA KOREA</div>
+        <h1>Mulai perjalanan<br>bahasa Korea <span>bersama.</span></h1>
+        <p class="hero-description">Belajar kosakata, pahami tata bahasa, dan persiapkan dirimu menghadapi EPS-TOPIK dengan cara yang lebih terarah.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#download"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v11m0 0 4-4m-4 4-4-4M5 17v3h14v-3"/></svg> Download APK <span class="arrow">↗</span></a><a class="button button-secondary" href="#preview">Lihat aplikasi <span>↓</span></a></div>
+        <div class="hero-meta"><div class="meta-icon">✓</div><div><strong>Belajar kapan saja</strong><small>Materi dalam genggamanmu</small></div><span class="meta-divider"></span><div class="version-chip"><span>VERSI TERBARU</span><strong id="heroVersion">v1.0.6</strong></div></div>
+      </div>
+      <div class="hero-art" aria-label="Tampilan aplikasi X-Korean">
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+        <div class="float-tag tag-top"><span class="tag-symbol">한</span><span><b>Bahasa Korea</b><small>Mulai dari dasar</small></span></div>
+        <div class="phone phone-main"><div class="phone-notch"></div><img src="assets/showcase-home.jpg" alt="Tampilan beranda aplikasi X-Korean"></div>
+        <div class="phone phone-back"><div class="phone-notch"></div><img src="assets/showcase-vocabulary.jpg" alt="Tampilan daftar kosakata X-Korean"></div>
+        <div class="float-tag tag-bottom"><span class="tag-check">✓</span><span><b>EPS-TOPIK</b><small>Belajar lebih terarah</small></span></div>
+        <div class="hero-glow"></div>
+      </div>
+    </section>
+
+    <section class="feature-strip container" aria-label="Fitur utama"><div><span class="strip-icon">가</span><span><b>Kosakata Korea</b><small>Perkaya kata setiap hari</small></span></div><div><span class="strip-icon">✓</span><span><b>Latihan kuis</b><small>Uji pemahamanmu</small></span></div><div><span class="strip-icon">책</span><span><b>Materi EPS-TOPIK</b><small>Belajar lebih fokus</small></span></div></section>
+
+    <section class="features section container" id="fitur">
+      <div class="section-heading"><div class="eyebrow">DIBUAT UNTUK PROGRESMU</div><h2>Semua yang kamu butuhkan,<br><span>dalam satu aplikasi.</span></h2><p>Belajar sedikit demi sedikit, lalu lihat seberapa jauh kamu berkembang.</p></div>
+      <div class="feature-grid">
+        <article class="feature-card feature-blue"><div class="feature-icon">가</div><div class="feature-number">01 / KOSAKATA</div><h3>Bangun fondasi kata</h3><p>Jelajahi daftar kosakata, tandai kata penting, dan ulangi materi sesuai kebutuhanmu.</p><span class="card-decoration decoration-word">안녕</span></article>
+        <article class="feature-card feature-red"><div class="feature-icon">✦</div><div class="feature-number">02 / LATIHAN</div><h3>Belajar sambil menguji diri</h3><p>Gunakan latihan dan kuis untuk membantu mengingat kata yang sudah dipelajari.</p><span class="card-decoration decoration-check">✓</span></article>
+        <article class="feature-card feature-purple"><div class="feature-icon">책</div><div class="feature-number">03 / MATERI</div><h3>Lebih siap untuk EPS-TOPIK</h3><p>Susun proses belajarmu lewat materi dan ringkasan yang praktis diakses.</p><span class="card-decoration decoration-book">BOOK</span></article>
+      </div>
+    </section>
+
+    <section class="preview-section" id="preview"><div class="container preview-inner">
+      <div class="section-heading preview-heading"><div class="eyebrow">LIHAT LEBIH DEKAT</div><h2>Ringkas, nyaman,<br><span>dan mudah digunakan.</span></h2><p>Kenali beberapa tampilan X-Korean sebelum memasangnya di perangkatmu.</p></div>
+      <div class="showcase-grid">
+        <figure class="showcase-card"><div class="screenshot-wrap"><img src="assets/showcase-home.jpg" loading="lazy" alt="Beranda X-Korean dengan ringkasan progres belajar"></div><figcaption><span>01</span><div><b>Beranda belajar</b><small>Lihat progres dan materi dengan cepat.</small></div></figcaption></figure>
+        <figure class="showcase-card"><div class="screenshot-wrap"><img src="assets/showcase-vocabulary.jpg" loading="lazy" alt="Daftar kosakata bahasa Korea"></div><figcaption><span>02</span><div><b>Daftar kosakata</b><small>Temukan dan tandai kosakata penting.</small></div></figcaption></figure>
+        <figure class="showcase-card"><div class="screenshot-wrap"><img src="assets/showcase-quiz.jpg" loading="lazy" alt="Tampilan kuis kosakata X-Korean"></div><figcaption><span>03</span><div><b>Kuis kosakata</b><small>Uji ingatanmu lewat latihan.</small></div></figcaption></figure>
+        <figure class="showcase-card"><div class="screenshot-wrap"><img src="assets/showcase-lessons.jpg" loading="lazy" alt="Materi dan rumus bahasa Korea untuk EPS-TOPIK"></div><figcaption><span>04</span><div><b>Materi pembelajaran</b><small>Pelajari materi secara bertahap.</small></div></figcaption></figure>
+        <figure class="showcase-card"><div class="screenshot-wrap"><img src="assets/showcase-rules.jpg" loading="lazy" alt="Ringkasan rumus bahasa Korea"></div><figcaption><span>05</span><div><b>Ringkasan rumus</b><small>Buka kembali catatan saat dibutuhkan.</small></div></figcaption></figure>
+        <figure class="showcase-card"><div class="screenshot-wrap"><img src="assets/showcase-welcome.jpg" loading="lazy" alt="Layar pembuka aplikasi X-Korean"></div><figcaption><span>06</span><div><b>Mulai dari dasar</b><small>Langkah awal perjalanan belajarmu.</small></div></figcaption></figure>
+      </div>
+    </div></section>
+
+    <section class="download-section container" id="download"><div class="download-card"><div class="download-copy"><div class="eyebrow"><span class="live-dot"></span> SIAP UNTUK MULAI?</div><h2>Belajar Korea,<br><span>mulai hari ini.</span></h2><p>Pasang X-Korean di perangkat Android dan lanjutkan perjalanan belajarmu di mana saja.</p><div class="download-details"><div><small>VERSI APLIKASI</small><strong id="downloadVersion">v1.0.6</strong></div><div><small>PLATFORM</small><strong>Android APK</strong></div><div><small>DATA MATERI</small><strong id="dataVersion">v1.0.2</strong></div></div><div class="platform-warning" role="note"><span class="warning-icon" aria-hidden="true">!</span><span><strong>Belum mendukung iOS</strong><small>Saat ini X-Korean hanya tersedia untuk perangkat Android.</small></span></div><a class="button button-primary download-button" id="downloadButton" href="https://drive.google.com/file/d/1S1vO-nsaUkVmHjNcvtxpGbhvbxYXmQbE/view?usp=drive_link" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v11m0 0 4-4m-4 4-4-4M5 17v3h14v-3"/></svg> Download APK <span class="arrow">↗</span></a><p class="download-note" id="manifestStatus">Versi terbaru dimuat dari manifest resmi.</p></div><div class="download-visual"><div class="download-ring ring-one"></div><div class="download-ring ring-two"></div><div class="app-icon-card"><img src="assets/logo.png" alt="Ikon X-Korean"></div><div class="floating-version"><span class="tag-check">✓</span><span><b id="floatingVersion">v1.0.6</b><small>Versi aplikasi</small></span></div><div class="floating-android">ANDROID <span>APK</span></div></div></div></section>
+  </main>
+
+  <footer class="footer" id="tentang"><div class="container footer-inner"><a class="brand footer-brand" href="#home"><img src="assets/logo.png" alt=""><span>X-Korean</span></a><p>Teman belajar bahasa Korea & EPS-TOPIK.</p><span class="footer-credit">© <span id="year"></span> X-Korean by Gibran · Powered by Xeroint Technology</span></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
